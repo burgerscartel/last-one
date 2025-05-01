@@ -3,8 +3,11 @@ import Header from './components/Header';
 
 export const metadata = {
   title: 'Burgers Cartel',
-  description: 'Flavors You Can\'t Refuse',
-  openGraph: { title: 'Burgers Cartel', description: 'Flavors You Can\'t Refuse' }
+  description: "Flavors You Can't Refuse",
+  openGraph: {
+    title: 'Burgers Cartel',
+    description: "Flavors You Can't Refuse"
+  }
 };
 
 export default function RootLayout({ children }) {
@@ -17,3 +20,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+

@@ -15,16 +15,26 @@ export default function Header() {
       zIndex: 1000
     }}>
       <Link href="/">
-        <Image src="/assets/logo.png" alt="Burgers Cartel" width={300} height={90} />
+        <Image
+          src="/assets/logo.png"
+          alt="Burgers Cartel"
+          width={300}
+          height={90}
+        />
       </Link>
       <nav style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
         {/* Side-drawer toggle goes here */}
-        <Link href="https://wa.me/923375561898" target="_blank" aria-label="Chat on WhatsApp">
-         <Image
-  src="/assets/vectors/icon-whatsapp.svg"
-  alt="WhatsApp"
-  width={48}
-  height={48}
+        <Link
+          href="https://wa.me/923375561898"
+          target="_blank"
+          aria-label="Chat on WhatsApp"
+        >
+          <Image
+            src="/assets/vectors/icon-whatsapp.svg"
+            alt="WhatsApp"
+            width={48}
+            height={48}
+          />
         </Link>
       </nav>
     </header>
