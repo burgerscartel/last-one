@@ -1,7 +1,6 @@
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
-import whatsappIcon from '/assets/vectors/icon-whatsapp.svg';
 
 export default function Header() {
   return (
@@ -21,7 +20,11 @@ export default function Header() {
       <nav style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
         {/* Side-drawer toggle goes here */}
         <Link href="https://wa.me/923375561898" target="_blank" aria-label="Chat on WhatsApp">
-          <Image src={whatsappIcon} alt="WhatsApp" width={48} height={48} />
+         <Image
+  src="/assets/vectors/icon-whatsapp.svg"
+  alt="WhatsApp"
+  width={48}
+  height={48}
         </Link>
       </nav>
     </header>
